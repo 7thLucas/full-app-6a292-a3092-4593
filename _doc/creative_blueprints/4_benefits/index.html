@@ -1,0 +1,81 @@
+<style>
+  .mode-landscape .sl-metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .mode-portrait  .sl-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mode-landscape .sl-roi { flex-direction: row; align-items: center; gap: 2.5rem; }
+  .mode-portrait  .sl-roi { flex-direction: column; gap: 1.25rem; }
+</style>
+<section class="w-full h-full overflow-hidden bg-white">
+
+  <!-- Header -->
+  <div class="px-12 pt-10 pb-5">
+    <div class="flex items-center gap-3 mb-2">
+      <span class="block w-5 h-px bg-emerald-500"></span>
+      <p class="text-emerald-600 text-xs font-bold tracking-widest uppercase">Benefits</p>
+    </div>
+    <h2 class="text-3xl font-black text-slate-900">The Business Case for a Healthier Nursery</h2>
+  </div>
+
+  <div class="px-12 pb-10 flex flex-col gap-5" style="height: calc(100% - 108px);">
+
+    <!-- Metric cards -->
+    <div class="sl-metrics grid gap-4">
+
+      <div class="bg-slate-50 rounded-2xl p-5">
+        <p class="text-xs text-emerald-600 font-bold uppercase tracking-wide mb-3">Plant Health</p>
+        <p class="text-2xl font-black text-slate-900 mb-1">↓ Losses</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Proactive care schedules catch missed watering before plants are lost from inventory.</p>
+      </div>
+
+      <div class="bg-slate-50 rounded-2xl p-5">
+        <p class="text-xs text-emerald-600 font-bold uppercase tracking-wide mb-3">Seasonal Revenue</p>
+        <p class="text-2xl font-black text-slate-900 mb-1">↑ Sell-Through</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Match stock to demand peaks so bestsellers are always on hand when customers arrive.</p>
+      </div>
+
+      <div class="bg-slate-50 rounded-2xl p-5">
+        <p class="text-xs text-emerald-600 font-bold uppercase tracking-wide mb-3">Operational Time</p>
+        <p class="text-2xl font-black text-slate-900 mb-1">↓ Manual Work</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Automated schedules replace handwritten logs and error-prone spreadsheet maintenance.</p>
+      </div>
+
+      <div class="bg-slate-50 rounded-2xl p-5">
+        <p class="text-xs text-emerald-600 font-bold uppercase tracking-wide mb-3">Purchasing Waste</p>
+        <p class="text-2xl font-black text-slate-900 mb-1">↓ Overstock</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Historical sales data guides buying decisions to avoid carrying slow-season excess.</p>
+      </div>
+
+    </div>
+
+    <!-- ROI summary block -->
+    <div class="bg-emerald-700 rounded-2xl p-7 flex-1 flex">
+      <div class="sl-roi flex w-full">
+
+        <div class="flex-1">
+          <p class="text-emerald-300 text-xs font-bold uppercase tracking-wide mb-2">The Bottom Line</p>
+          <p class="text-white text-xl font-black leading-snug">
+            A healthier inventory and smarter stocking decisions pay back more than the cost of tracking them.
+          </p>
+        </div>
+
+        <div class="flex gap-5 flex-shrink-0 items-center">
+          <div class="text-center">
+            <p class="text-emerald-300 text-xs font-semibold mb-1">Fewer losses</p>
+            <p class="text-white text-sm font-medium">Better plant survival</p>
+          </div>
+          <div class="w-px bg-emerald-600 self-stretch"></div>
+          <div class="text-center">
+            <p class="text-emerald-300 text-xs font-semibold mb-1">Higher margins</p>
+            <p class="text-white text-sm font-medium">Sell more at peak</p>
+          </div>
+          <div class="w-px bg-emerald-600 self-stretch"></div>
+          <div class="text-center">
+            <p class="text-emerald-300 text-xs font-semibold mb-1">Less waste</p>
+            <p class="text-white text-sm font-medium">Smarter purchasing</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
