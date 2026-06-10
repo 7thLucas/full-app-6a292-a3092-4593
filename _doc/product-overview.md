@@ -1,0 +1,1 @@
+Build me an app for plant nursery owners to help them track plant inventory, watering schedules, and seasonal sales with the goal to keep plants healthy and match stock to seasonal demand
