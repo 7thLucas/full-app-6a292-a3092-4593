@@ -1,0 +1,93 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .mode-portrait  .sl-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+</style>
+<section class="w-full h-full overflow-hidden bg-white">
+
+  <!-- Header -->
+  <div class="px-12 pt-10 pb-4">
+    <div class="flex items-center gap-3 mb-2">
+      <span class="block w-5 h-px bg-emerald-500"></span>
+      <p class="text-emerald-600 text-xs font-bold tracking-widest uppercase">Core Features</p>
+    </div>
+    <h2 class="text-3xl font-black text-slate-900">Everything a Nursery Owner Needs</h2>
+  </div>
+
+  <!-- Persona chips -->
+  <div class="px-12 mb-5 flex gap-2">
+    <div class="bg-emerald-700 text-white text-xs font-semibold px-4 py-1.5 rounded-full flex items-center gap-1.5">
+      <span>🌿</span><span>Nursery Owner</span>
+    </div>
+    <div class="bg-slate-100 text-slate-400 text-xs font-semibold px-4 py-1.5 rounded-full flex items-center gap-1.5">
+      <span>💧</span><span>Plant Care Lead</span>
+    </div>
+    <div class="bg-slate-100 text-slate-400 text-xs font-semibold px-4 py-1.5 rounded-full flex items-center gap-1.5">
+      <span>📦</span><span>Stock Manager</span>
+    </div>
+  </div>
+
+  <!-- Feature grid -->
+  <div class="sl-grid grid gap-4 px-12 pb-10">
+
+    <div class="bg-slate-50 rounded-2xl p-5 flex gap-4 items-start">
+      <div class="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
+        <span class="text-base">🌱</span>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-900 mb-1">Plant Inventory Tracker</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Track every variety by species, quantity, location, and health status in real time.</p>
+      </div>
+    </div>
+
+    <div class="bg-slate-50 rounded-2xl p-5 flex gap-4 items-start">
+      <div class="w-10 h-10 rounded-xl bg-sky-100 flex items-center justify-center flex-shrink-0">
+        <span class="text-base">💧</span>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-900 mb-1">Watering Schedule Manager</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Set recurring care routines by plant type with reminders for watering, feeding, and treatment.</p>
+      </div>
+    </div>
+
+    <div class="bg-slate-50 rounded-2xl p-5 flex gap-4 items-start">
+      <div class="w-10 h-10 rounded-xl bg-amber-100 flex items-center justify-center flex-shrink-0">
+        <span class="text-base">📊</span>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-900 mb-1">Seasonal Sales Dashboard</p>
+        <p class="text-xs text-slate-500 leading-relaxed">See which plants sell best by season and monitor sell-through performance over time.</p>
+      </div>
+    </div>
+
+    <div class="bg-slate-50 rounded-2xl p-5 flex gap-4 items-start">
+      <div class="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
+        <span class="text-base">📦</span>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-900 mb-1">Stock-Demand Matching</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Align purchase orders and propagation plans with historical seasonal demand patterns.</p>
+      </div>
+    </div>
+
+    <div class="bg-slate-50 rounded-2xl p-5 flex gap-4 items-start">
+      <div class="w-10 h-10 rounded-xl bg-red-100 flex items-center justify-center flex-shrink-0">
+        <span class="text-base">🔔</span>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-900 mb-1">Health &amp; Overdue Alerts</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Get notified when plants are overdue for care so issues are caught before they become losses.</p>
+      </div>
+    </div>
+
+    <div class="bg-slate-50 rounded-2xl p-5 flex gap-4 items-start">
+      <div class="w-10 h-10 rounded-xl bg-violet-100 flex items-center justify-center flex-shrink-0">
+        <span class="text-base">📋</span>
+      </div>
+      <div>
+        <p class="text-sm font-bold text-slate-900 mb-1">Inventory Reports</p>
+        <p class="text-xs text-slate-500 leading-relaxed">Generate summaries for purchasing decisions, waste reduction, and seasonal planning reviews.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
