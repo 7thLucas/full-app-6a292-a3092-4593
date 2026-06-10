@@ -1,0 +1,92 @@
+<style>
+  .mode-landscape .sl-panels { flex-direction: row; }
+  .mode-portrait  .sl-panels { flex-direction: column; }
+  .mode-landscape .sl-problem  { width: 44%; }
+  .mode-landscape .sl-solution { width: 56%; }
+  .mode-portrait  .sl-problem  { width: 100%; }
+  .mode-portrait  .sl-solution { width: 100%; }
+</style>
+<section class="w-full h-full overflow-hidden bg-white">
+
+  <!-- Header -->
+  <div class="px-12 pt-10 pb-5">
+    <div class="flex items-center gap-3 mb-2">
+      <span class="block w-5 h-px bg-emerald-500"></span>
+      <p class="text-emerald-600 text-xs font-bold tracking-widest uppercase">Foundation</p>
+    </div>
+    <h2 class="text-3xl font-black text-slate-900">Why Nurseries Need a Better System</h2>
+  </div>
+
+  <!-- Two-panel body -->
+  <div class="sl-panels flex gap-5 px-12 pb-10" style="height: calc(100% - 112px);">
+
+    <!-- Problem panel -->
+    <div class="sl-problem bg-slate-50 rounded-2xl p-7 flex flex-col">
+      <div class="flex items-center gap-2 mb-5">
+        <div class="w-7 h-7 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0">
+          <span class="text-red-500 text-xs font-black">✕</span>
+        </div>
+        <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wide">The Problem</h3>
+      </div>
+
+      <ul class="space-y-4 flex-1">
+        <li class="flex gap-3">
+          <span class="w-1.5 h-1.5 rounded-full bg-red-400 mt-1.5 flex-shrink-0"></span>
+          <div>
+            <p class="text-sm font-semibold text-slate-800 mb-0.5">Missed care = dead plants</p>
+            <p class="text-xs text-slate-500 leading-relaxed">Without a schedule, watering and treatment windows are forgotten — causing preventable plant loss that directly reduces saleable inventory.</p>
+          </div>
+        </li>
+        <li class="flex gap-3">
+          <span class="w-1.5 h-1.5 rounded-full bg-red-400 mt-1.5 flex-shrink-0"></span>
+          <div>
+            <p class="text-sm font-semibold text-slate-800 mb-0.5">Stock-demand mismatch</p>
+            <p class="text-xs text-slate-500 leading-relaxed">Nurseries over-stock slow movers and under-stock spring bestsellers — wasting money and missing peak revenue windows every season.</p>
+          </div>
+        </li>
+        <li class="flex gap-3">
+          <span class="w-1.5 h-1.5 rounded-full bg-red-400 mt-1.5 flex-shrink-0"></span>
+          <div>
+            <p class="text-sm font-semibold text-slate-800 mb-0.5">Disconnected records</p>
+            <p class="text-xs text-slate-500 leading-relaxed">Care logs, inventory counts, and sales data live in notebooks and spreadsheets — making confident purchasing decisions nearly impossible.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Solution panel -->
+    <div class="sl-solution bg-emerald-700 rounded-2xl p-7 flex flex-col">
+      <div class="flex items-center gap-2 mb-5">
+        <div class="w-7 h-7 rounded-full bg-emerald-500 flex items-center justify-center flex-shrink-0">
+          <span class="text-white text-xs font-black">✓</span>
+        </div>
+        <h3 class="text-sm font-bold text-white uppercase tracking-wide">The Solution</h3>
+      </div>
+
+      <p class="text-sm text-emerald-100 leading-relaxed mb-6">
+        NurseryFlow gives nursery owners a single dashboard that connects plant care, inventory, and
+        sales data — so every plant stays healthy and every seasonal peak is fully stocked.
+      </p>
+
+      <div class="grid grid-cols-2 gap-3 flex-1">
+        <div class="bg-emerald-600 rounded-xl px-4 py-3">
+          <p class="text-white font-bold text-xs mb-0.5">🌱 Real-time inventory</p>
+          <p class="text-emerald-200 text-xs leading-relaxed">Every plant tracked by species, quantity, and health status.</p>
+        </div>
+        <div class="bg-emerald-600 rounded-xl px-4 py-3">
+          <p class="text-white font-bold text-xs mb-0.5">💧 Smart care schedules</p>
+          <p class="text-emerald-200 text-xs leading-relaxed">Automated reminders for watering, feeding, and treatment.</p>
+        </div>
+        <div class="bg-emerald-600 rounded-xl px-4 py-3">
+          <p class="text-white font-bold text-xs mb-0.5">📊 Seasonal demand view</p>
+          <p class="text-emerald-200 text-xs leading-relaxed">Historical sales patterns guide stocking decisions for each season.</p>
+        </div>
+        <div class="bg-emerald-600 rounded-xl px-4 py-3">
+          <p class="text-white font-bold text-xs mb-0.5">🔔 Health alerts</p>
+          <p class="text-emerald-200 text-xs leading-relaxed">Catch overdue care before plants are lost.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
